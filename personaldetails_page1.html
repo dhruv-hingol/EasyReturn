@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="IT return and GST return">
+    <meta content="refresh" content="5sec">
+    <title>Personal Detail</title>
+    <link rel="stylesheet" href="personaldetails_page1.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <ul>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">blog</a></li>
+            <li class="active"><a href="#" onclick="window.open">My Acoount</a></li>
+        </ul>
+    </div>
+    <div class="logo">
+        <img src="LOGO.png" height="80" width="200">
+    </div>
+    <div class="horizontal"></div>
+    <div class="formsa">
+        <!-- <div class="upper">
+            <a>Personal Details</a>
+        </div> -->
+        <div class="maincontainer">
+            <fieldset>
+                <!--MAIN CONTAINER-->
+                <legend>
+                    <h3>
+                        Enter your permanent inforamtion here
+                    </h3>
+                </legend>
+                <form action="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="inside">
+                                    <fieldset class="insidepersonal">
+
+                                        <!--PERSONAL INFORMATION CONTAINER-->
+
+                                        <legend><b>Personal Information</b></legend>
+                                        <table cellspacing="" cellpadding="">
+                                            <tr>
+                                                <td rowspan="3" colspan="2">
+                                                    <h4>First Name<br></h4>
+                                                    <input type="text" name="name" value="" placeholder="First Name" required>
+                                                    <h4>Middle Name<br></h4>
+                                                    <input type="text" name="name" value="" placeholder="Middle Name" required>
+                                                    <h4>Last Name<br></h4>
+                                                    <input type="text" name="name" value="" placeholder="Last Name" required>
+                                                    <h4>Date of Birth</h4>
+                                                    <input type="date" name="DOB" value="" required>
+                                                    <h4>Father's Name<br></h4>
+                                                    <input type="text" name="Fathername" value="" required>
+                                                    <h4>Marital Status<br></h4>
+                                                    <select name="Maritalstatus" required>
+                                                        <option value="Married">Married</option>
+                                                        <option value="Unmarried">Unmarried</option>
+                                                     </select>
+                                                    <h4>Gender<br></h4>
+                                                    <input type="radio" name="Gender" value="Male" required />Male
+                                                    <input type="radio" name="Gender" value="Female" required />Female
+                                                    <input type="radio" name="Gender" value="Other" required />Other
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </fieldset>
+                                </div>
+                            </td>
+                            <td>
+                                <!--ADDRESS INFORMATION CONTAINER-->
+
+                                <div class="address">
+                                    <fieldset class="insideaddress">
+                                        <legend><b>Address</b></legend>
+
+                                        <table cellspacing="2" cellpadding="">
+                                            <tr>
+                                                <td>
+                                                    <h4>Block No./Flat</h4>
+                                                </td>
+                                                <td><input type="text" name="address" value="" required></td>
+                                                <!-- road yaha thi -->
+                                            </tr>
+
+                                            <!-- Prabhash -->
+                                            <tr>
+                                                <td>
+                                                    <h4>Road/Street</h4>
+                                                </td>
+                                                <td><input type="text" name="address" value="" required></td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <h4>Area</h4>
+                                                </td>
+                                                <td><input type="text" name="address" value="" required></td>
+                                                <!-- town yaha tha -->
+                                            </tr>
+
+                                            <!-- Prabhash  -->
+                                            <tr>
+                                                <td>
+                                                    <h4>Town/City</h4>
+                                                </td>
+                                                <td><input type="text" name="address" value="" required></td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <h4>Pincode</h4>
+                                                </td>
+                                                <td><input type="text" name="pincode" value="" pattern="[0-9]{6}" required></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h4>State</h4>
+                                                </td>
+                                                <td>
+                                                    <select name="state" id="state" class="form-control">
+                                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                     <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                     <option value="Assam">Assam</option>
+                                                     <option value="Bihar">Bihar</option>
+                                                     <option value="Chandigarh">Chandigarh</option>
+                                                     <option value="Chhattisgarh">Chhattisgarh</option>
+                                                     <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                                     <option value="Daman and Diu">Daman and Diu</option>
+                                                     <option value="Delhi">Delhi</option>
+                                                     <option value="Lakshadweep">Lakshadweep</option>
+                                                     <option value="Puducherry">Puducherry</option>
+                                                     <option value="Goa">Goa</option>
+                                                     <option value="Gujarat">Gujarat</option>
+                                                     <option value="Haryana">Haryana</option>
+                                                     <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                     <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                     <option value="Jharkhand">Jharkhand</option>
+                                                     <option value="Karnataka">Karnataka</option>
+                                                     <option value="Kerala">Kerala</option>
+                                                     <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                     <option value="Maharashtra">Maharashtra</option>
+                                                     <option value="Manipur">Manipur</option>
+                                                     <option value="Meghalaya">Meghalaya</option>
+                                                     <option value="Mizoram">Mizoram</option>
+                                                     <option value="Nagaland">Nagaland</option>
+                                                     <option value="Odisha">Odisha</option>
+                                                     <option value="Punjab">Punjab</option>
+                                                     <option value="Rajasthan">Rajasthan</option>
+                                                     <option value="Sikkim">Sikkim</option>
+                                                     <option value="Tamil Nadu">Tamil Nadu</option>
+                                                     <option value="Telangana">Telangana</option>
+                                                     <option value="Tripura">Tripura</option>
+                                                     <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                     <option value="Uttarakhand">Uttarakhand</option>
+                                                     <option value="West Bengal">West Bengal</option>
+           
+                                                    </select>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    <h4>Phone Number</h4>
+                                                </td>
+                                                <td><input type="tel" name="PAN" value="" pattern="[0-9]{10}" required></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h4>Email Address</h4>
+                                                </td>
+                                                <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></td>
+                                            </tr>
+
+                                        </table>
+
+                                    </fieldset>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div>
+                        <button onclick="myOnClickFn()">Save</button>
+                        <script>
+                            function myOnClickFn() {
+                                document.location.href = "secondpage.html"
+                            }
+                        </script>
+                        <button class="save" type="reset" name="reset" value="CLEAR">CLEAR</button>
+                    </div>
+
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <div class="horizontal2"></div>
+
+    <!--contact container-->
+
+    <section class="Contact">
+        <h1 class="section-heading mb50px">
+            <span>
+                <i class="fas fa-id-card-alt"></i>
+            </span>
+            <span>
+                Contact
+            </span>
+        </h1>
+        <div class="contact-container">
+
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <input name="name" class="input-name" type="text" placeholder="Your Name">
+                    <input name="input-email" class="input-email" type="text" required placeholder="abc@any.com">
+                    <textarea name="input-message" class="input-message" rows="3" cols="40" placeholder="Message"></textarea>
+                    <button class="sub-btn" onclick='SubForm()' type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+            <div class="my-detail-container">
+                <h3>Get in touch</h3>
+                <!-- <i class="fas fa-address-card"></i> -->
+                <!-- <span>C/22 simandhar residency-2,chandlodia,ahmedabad,Gujarat<br> Pin:- 382481<br> -->
+                <!-- </span> -->
+                <div class="my-details-info-container">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Ahmedabad,Gujarat,India</span>
+                </div>
+                <div class="my-details-info-container">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>+918735099370</span>
+                </div>
+                <div class="my-details-info-container">
+                    <i class="far fa-envelope"></i>
+                    <span>dhruvhingol2210@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-centre social-icons">
+            <ul class="horizontal-list">
+                <li>
+                    <a href="https://www.linkedin.com/in/dhruvhingol/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dhruvhingol_22/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/Dhingol">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/dhruv.hingol.5">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>

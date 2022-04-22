@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(50deg, lightskyblue, white);
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul {
+    float: right;
+    list-style-type: square;
+    margin: top 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: black;
+    padding: 5px 20px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+ul li.active a {
+    background-color: skyblue;
+    color: black;
+}
+
+.title {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-family: "Times New Roman";
+    color: black;
+}
+
+.head {
+    position: relative;
+    top: 25%;
+    left: 30%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.about {
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    position: relative;
+    flex-wrap: wrap-reverse;
+    top: 20%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4.myself {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    font-size: 25px;
+}
+
+h4 a {
+    color: blue;
+    text-decoration: underline;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}

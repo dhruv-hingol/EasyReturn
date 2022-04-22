@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="IT return and GST return">
+    <meta content="refresh" content="5sec">
+    <title>Sign Up</title>
+
+    <link href="signup.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>
+            <marquee behavior="slide" direction="right" repeat="infinite">Easy-Return</marquee>
+        </h1>
+
+    </div>
+
+    <div class="table">
+
+        <img src="loginpage_written.jpg" width="200px" height="200px">
+
+    </div>
+
+    <div class="left">
+
+        <ul>
+            <li>Maximum saving on ITR</li>
+            <br>
+            <li>Get experts to help with tax savings</li>
+            <br>
+            <li>Easy-Return is a self funded company without<br> any external investment, so the only people we<br> listen to is our users.</li>
+        </ul>
+    </div>
+    <ul>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">blog</a></li>
+        <li class="active"><a href="loginpage.html" onclick="window.open">Login</a></li>
+    </ul>
+
+
+    <div class="vertical"></div>
+
+    <div class="center">
+
+
+        <h1>Sign Up</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="txt_field">
+                <input type="repassword" required>
+                <label>Re-Enter</label>
+            </div>
+            <!--<div class="pass">Agree</div>-->
+            <!-- <input type="submit" value="Agree and continue"> -->
+            <button onclick="myOnClickFn()">Login</button>
+            <script>
+                function myOnClickFn() {
+                    document.location.href = "personaldetails_page1.html"
+                }
+            </script>
+            <div class="signup_link">
+                Already Member? <a href="loginpage.html">Login</a>
+            </div>
+        </form>
+    </div>
+    <div class="aboutsite">
+        <a href="about.html" onclick="window.open">About us</a>
+
+    </div>
+
+
+</body>
+
+</html>
